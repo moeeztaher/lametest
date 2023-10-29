@@ -1,0 +1,168 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Analysis.props(24,5): warning MSB4211: The property "MsvcAnalysisPluginPath" is being set to a value for the first time, but it was already consumed at "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CodeAnalysis.Extensions.props (33,5)".
+  brhist.c
+  console.c
+  get_audio.c
+  lametime.c
+  lame_main.c
+D:\Dev\lame-3.100\lame-3.100\frontend\lame_main.c(416,20): warning C4456: declaration of 'owrite' hides previous local declaration
+D:\Dev\lame-3.100\lame-3.100\frontend\lame_main.c(393,26): message : see declaration of 'owrite'
+  main.c
+  parse.c
+  timestatus.c
+  Generating Code...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1389,5): warning MSB8012: TargetPath(D:\Dev\lame-3.100\lame-3.100\output\Debug\app lame.exe) does not match the Linker's OutputFile property value (D:\Dev\lame-3.100\lame-3.100\output\Debug\lame.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1391,5): warning MSB8012: TargetName(app lame) does not match the Linker's OutputFile property value (lame). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+brhist.obj : error LNK2019: unresolved external symbol _lame_get_out_samplerate referenced in function _progress_line
+lame_main.obj : error LNK2001: unresolved external symbol _lame_get_out_samplerate
+timestatus.obj : error LNK2001: unresolved external symbol _lame_get_out_samplerate
+brhist.obj : error LNK2019: unresolved external symbol _lame_get_framesize referenced in function _progress_line
+get_audio.obj : error LNK2001: unresolved external symbol _lame_get_framesize
+timestatus.obj : error LNK2001: unresolved external symbol _lame_get_framesize
+brhist.obj : error LNK2019: unresolved external symbol _lame_get_totalframes referenced in function _brhist_disp
+timestatus.obj : error LNK2001: unresolved external symbol _lame_get_totalframes
+brhist.obj : error LNK2019: unresolved external symbol _lame_bitrate_hist referenced in function _brhist_disp
+brhist.obj : error LNK2019: unresolved external symbol _lame_bitrate_kbps referenced in function _brhist_init
+brhist.obj : error LNK2019: unresolved external symbol _lame_stereo_mode_hist referenced in function _brhist_disp
+brhist.obj : error LNK2019: unresolved external symbol _lame_bitrate_stereo_mode_hist referenced in function _brhist_disp
+brhist.obj : error LNK2019: unresolved external symbol _lame_block_type_hist referenced in function _brhist_disp
+get_audio.obj : error LNK2019: unresolved external symbol _lame_set_num_samples referenced in function _init_infile
+get_audio.obj : error LNK2019: unresolved external symbol _lame_get_num_samples referenced in function _get_audio_common
+lame_main.obj : error LNK2001: unresolved external symbol _lame_get_num_samples
+get_audio.obj : error LNK2019: unresolved external symbol _lame_set_in_samplerate referenced in function _set_input_samplerate
+parse.obj : error LNK2001: unresolved external symbol _lame_set_in_samplerate
+get_audio.obj : error LNK2019: unresolved external symbol _lame_get_in_samplerate referenced in function _open_mpeg_file
+lame_main.obj : error LNK2001: unresolved external symbol _lame_get_in_samplerate
+get_audio.obj : error LNK2019: unresolved external symbol _lame_set_num_channels referenced in function _set_input_num_channels
+parse.obj : error LNK2001: unresolved external symbol _lame_set_num_channels
+get_audio.obj : error LNK2019: unresolved external symbol _lame_get_num_channels referenced in function _get_audio_common
+lame_main.obj : error LNK2001: unresolved external symbol _lame_get_num_channels
+get_audio.obj : error LNK2019: unresolved external symbol _lame_get_encoder_delay referenced in function _setSkipStartAndEnd
+get_audio.obj : error LNK2019: unresolved external symbol _hip_decode_init referenced in function _lame_decode_initfile
+get_audio.obj : error LNK2019: unresolved external symbol _hip_decode_exit referenced in function _close_infile
+get_audio.obj : error LNK2019: unresolved external symbol _hip_set_errorf referenced in function _lame_decode_initfile
+get_audio.obj : error LNK2019: unresolved external symbol _hip_set_debugf referenced in function _lame_decode_initfile
+get_audio.obj : error LNK2019: unresolved external symbol _hip_set_msgf referenced in function _lame_decode_initfile
+get_audio.obj : error LNK2019: unresolved external symbol _hip_decode1_headers referenced in function _lame_decode_fromfile
+get_audio.obj : error LNK2019: unresolved external symbol _hip_decode1_headersB referenced in function _lame_decode_initfile
+lame_main.obj : error LNK2019: unresolved external symbol _lame_get_scale referenced in function _print_trailing_info
+lame_main.obj : error LNK2019: unresolved external symbol _lame_get_decode_only referenced in function _init_files
+parse.obj : error LNK2001: unresolved external symbol _lame_get_decode_only
+lame_main.obj : error LNK2019: unresolved external symbol _lame_get_findReplayGain referenced in function _print_trailing_info
+lame_main.obj : error LNK2019: unresolved external symbol _lame_get_decode_on_the_fly referenced in function _print_trailing_info
+lame_main.obj : error LNK2019: unresolved external symbol _lame_set_nogap_total referenced in function _lame_main
+lame_main.obj : error LNK2019: unresolved external symbol _lame_set_nogap_currentindex referenced in function _lame_main
+lame_main.obj : error LNK2019: unresolved external symbol _lame_set_errorf referenced in function _lame_main
+lame_main.obj : error LNK2019: unresolved external symbol _lame_set_debugf referenced in function _lame_main
+lame_main.obj : error LNK2019: unresolved external symbol _lame_set_msgf referenced in function _lame_main
+lame_main.obj : error LNK2019: unresolved external symbol _lame_get_version referenced in function _printInputFormat
+timestatus.obj : error LNK2001: unresolved external symbol _lame_get_version
+lame_main.obj : error LNK2019: unresolved external symbol _lame_get_RadioGain referenced in function _print_trailing_info
+lame_main.obj : error LNK2019: unresolved external symbol _lame_get_noclipGainChange referenced in function _print_trailing_info
+lame_main.obj : error LNK2019: unresolved external symbol _lame_get_noclipScale referenced in function _print_trailing_info
+lame_main.obj : error LNK2019: unresolved external symbol _lame_get_maximum_number_of_samples referenced in function _lame_encoder_loop
+lame_main.obj : error LNK2019: unresolved external symbol _lame_init_params referenced in function _lame_main
+lame_main.obj : error LNK2019: unresolved external symbol _lame_encode_buffer_int referenced in function _lame_encoder_loop
+lame_main.obj : error LNK2019: unresolved external symbol _lame_encode_flush referenced in function _lame_encoder_loop
+lame_main.obj : error LNK2019: unresolved external symbol _lame_encode_flush_nogap referenced in function _lame_encoder_loop
+lame_main.obj : error LNK2019: unresolved external symbol _lame_init_bitstream referenced in function _lame_main
+lame_main.obj : error LNK2019: unresolved external symbol _lame_get_lametag_frame referenced in function _write_xing_frame
+lame_main.obj : error LNK2019: unresolved external symbol _lame_get_id3v1_tag referenced in function _write_id3v1_tag
+lame_main.obj : error LNK2019: unresolved external symbol _lame_get_id3v2_tag referenced in function _lame_encoder_loop
+lame_main.obj : error LNK2019: unresolved external symbol _lame_set_write_id3tag_automatic referenced in function _lame_main
+main.obj : error LNK2019: unresolved external symbol _lame_init referenced in function _c_main
+main.obj : error LNK2019: unresolved external symbol _lame_close referenced in function _c_main
+parse.obj : error LNK2019: unresolved external symbol _lame_set_scale referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_scale_left referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_scale_right referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_out_samplerate referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_bWriteVbrTag referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_get_bWriteVbrTag referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_decode_only referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_quality referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_mode referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_get_mode referenced in function _parse_args_
+timestatus.obj : error LNK2001: unresolved external symbol _lame_get_mode
+parse.obj : error LNK2019: unresolved external symbol _lame_set_force_ms referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_free_format referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_get_free_format referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_findReplayGain referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_decode_on_the_fly referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_brate referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_get_brate referenced in function _parse_args_
+timestatus.obj : error LNK2001: unresolved external symbol _lame_get_brate
+parse.obj : error LNK2019: unresolved external symbol _lame_set_compression_ratio referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_preset referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_asm_optimizations referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_copyright referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_original referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_error_protection referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_strict_ISO referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_disable_reservoir referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_quant_comp referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_quant_comp_short referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_experimentalY referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_experimentalZ referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_exp_nspsytune referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_get_exp_nspsytune referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_msfix referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_VBR referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_get_VBR referenced in function _parse_args_
+timestatus.obj : error LNK2001: unresolved external symbol _lame_get_VBR
+parse.obj : error LNK2019: unresolved external symbol _lame_set_VBR_q referenced in function _presets_set
+parse.obj : error LNK2019: unresolved external symbol _lame_get_VBR_q referenced in function _long_help
+parse.obj : error LNK2019: unresolved external symbol _lame_set_VBR_quality referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_VBR_mean_bitrate_kbps referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_VBR_min_bitrate_kbps referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_VBR_max_bitrate_kbps referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_VBR_hard_min referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_lowpassfreq referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_lowpasswidth referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_highpassfreq referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_highpasswidth referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_ATHonly referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_ATHshort referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_noATH referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_ATHtype referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_ATHlower referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_athaa_type referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_athaa_sensitivity referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_useTemporal referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_interChRatio referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_no_short_blocks referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_force_short_blocks referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _lame_set_emphasis referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _get_lame_version referenced in function _lame_version_print
+parse.obj : error LNK2019: unresolved external symbol _get_lame_url referenced in function _lame_version_print
+parse.obj : error LNK2019: unresolved external symbol _get_lame_os_bitness referenced in function _lame_version_print
+parse.obj : error LNK2019: unresolved external symbol _id3tag_genre_list referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _id3tag_init referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _id3tag_add_v2 referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _id3tag_v1_only referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _id3tag_v2_only referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _id3tag_space_v1 referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _id3tag_pad_v2 referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _id3tag_set_pad referenced in function _parse_args_
+parse.obj : error LNK2019: unresolved external symbol _id3tag_set_title referenced in function _set_id3tag
+parse.obj : error LNK2019: unresolved external symbol _id3tag_set_artist referenced in function _set_id3tag
+parse.obj : error LNK2019: unresolved external symbol _id3tag_set_album referenced in function _set_id3tag
+parse.obj : error LNK2019: unresolved external symbol _id3tag_set_year referenced in function _set_id3tag
+parse.obj : error LNK2019: unresolved external symbol _id3tag_set_comment referenced in function _set_id3tag
+parse.obj : error LNK2019: unresolved external symbol _id3tag_set_track referenced in function _set_id3tag
+parse.obj : error LNK2019: unresolved external symbol _id3tag_set_genre referenced in function _set_id3tag
+parse.obj : error LNK2019: unresolved external symbol _id3tag_set_fieldvalue referenced in function _set_id3tag
+parse.obj : error LNK2019: unresolved external symbol _id3tag_set_albumart referenced in function _set_id3_albumart
+parse.obj : error LNK2019: unresolved external symbol _id3tag_set_fieldvalue_utf16 referenced in function _set_id3v2tag
+parse.obj : error LNK2019: unresolved external symbol _id3tag_set_textinfo_utf16 referenced in function _set_id3v2tag
+parse.obj : error LNK2019: unresolved external symbol _id3tag_set_comment_utf16 referenced in function _set_id3v2tag
+parse.obj : error LNK2019: unresolved external symbol _lame_get_bitrate referenced in function _display_bitrate
+timestatus.obj : error LNK2019: unresolved external symbol _lame_get_quality referenced in function _encoder_progress_begin
+timestatus.obj : error LNK2019: unresolved external symbol _lame_get_force_ms referenced in function _encoder_progress_begin
+timestatus.obj : error LNK2019: unresolved external symbol _lame_get_compression_ratio referenced in function _encoder_progress_begin
+timestatus.obj : error LNK2019: unresolved external symbol _lame_get_VBR_quality referenced in function _encoder_progress_begin
+timestatus.obj : error LNK2019: unresolved external symbol _lame_get_VBR_mean_bitrate_kbps referenced in function _encoder_progress_begin
+timestatus.obj : error LNK2019: unresolved external symbol _lame_get_VBR_min_bitrate_kbps referenced in function _brhist_init_package
+timestatus.obj : error LNK2019: unresolved external symbol _lame_get_VBR_max_bitrate_kbps referenced in function _brhist_init_package
+timestatus.obj : error LNK2019: unresolved external symbol _lame_get_frameNum referenced in function _encoder_progress
+timestatus.obj : error LNK2019: unresolved external symbol _lame_print_config referenced in function _encoder_progress_begin
+timestatus.obj : error LNK2019: unresolved external symbol _lame_print_internals referenced in function _encoder_progress_begin
+D:\Dev\lame-3.100\lame-3.100\vc_solution\..\output\Debug\lame.exe : fatal error LNK1120: 138 unresolved externals
